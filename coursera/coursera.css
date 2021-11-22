@@ -92,7 +92,8 @@ nav img{
     background:#f44336 ;
     transition: 1s;
 }
-@media(max-width:700px){
+/* --------Mobile Styles----------- */
+@media(max-width:627px){
     .text-box h1{
         font-size: 20px;
     } 
@@ -106,6 +107,36 @@ nav img{
         
     
     
+}
+/* ---------Tablet Styles------------------ */
+@media only screen and (min-width: 628px) and (max-width: 960px){
+
+    .row {
+         
+         justify-content: space-between;
+         flex-direction: column;
+         
+                 
+       }
+       .day-col p{
+           text-align: center;
+           
+           
+       }
+       .day-col h3{
+          
+           text-align: center;
+           
+       }
+    .nav-links{
+        display: block;
+        text-align: center;
+    }
+    nav img{
+        float: none;
+    padding-top:3% ;
+   
+    justify-content: center;}
 }
 
 /* --------courses------ */
