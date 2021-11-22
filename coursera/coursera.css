@@ -92,7 +92,7 @@ nav img{
     background:#f44336 ;
     transition: 1s;
 }
-/* --------Mobile Styles----------- */
+/* --------Mobile Styles---------- */
 @media(max-width:627px){
     .text-box h1{
         font-size: 20px;
