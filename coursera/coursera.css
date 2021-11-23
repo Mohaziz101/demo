@@ -342,7 +342,7 @@ h3{
     margin-bottom: 40px;
     padding: 0;
 }
-@media(max-width:700px){
+@media(max-width:750px){
     .jn h1{font-size: 24px;
         }
     
