@@ -191,6 +191,13 @@
         width: 100%;
     }
 
+    .logo {
+        display: inline;
+        margin: auto;
+
+
+    }
+
     .header {
         padding-bottom: 0%;
     }
