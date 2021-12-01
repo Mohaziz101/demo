@@ -202,6 +202,12 @@
         padding-bottom: 0%;
     }
 
+    .Degre .Degre-col img{
+        width: 100%;
+        height: 320px;
+    }
+
+
 }
 
 /* ---------Tablet Styles------------------ */
@@ -222,7 +228,7 @@
         text-align: center;
     }
 
-    .nav-links {
+    .layer .nav-links {
         display: block;
         text-align: center;
     }
@@ -230,6 +236,11 @@
     .headerimg img {
         width: 250px;
     }
+    .Degre .Degre-col img {
+        width: 100%;
+        height: 420px;
+    }
+
 }
 
 /* --------courses------ */
@@ -371,11 +382,11 @@ p {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media(max-width:750px) {
+/* @media(max-width:750px) {
     .row {
         flex-direction: column;
     }
-}
+} */
 
 
 
@@ -391,6 +402,7 @@ p {
 }
 
 .Degre-col {
+    display: flex;
     flex-basis: 25%;
     margin-bottom: 5%;
     position: relative;
